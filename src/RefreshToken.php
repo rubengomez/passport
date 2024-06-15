@@ -12,13 +12,13 @@ class RefreshToken extends Model
      * @var string
      */
     protected $table = 'oauth_refresh_tokens';
-
-    /**
-     * The "type" of the primary key ID.
-     *
-     * @var string
-     */
-    protected $keyType = 'string';
+    protected $primaryKey = '_id';
+//    /**
+//     * The "type" of the primary key ID.
+//     *
+//     * @var string
+//     */
+//    protected $keyType = 'string';
 
     /**
      * Indicates if the IDs are auto-incrementing.

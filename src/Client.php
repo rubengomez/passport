@@ -19,6 +19,8 @@ class Client extends Model
      */
     protected $table = 'oauth_clients';
 
+    protected $primaryKey = '_id';
+    
     /**
      * The guarded attributes on the model.
      *

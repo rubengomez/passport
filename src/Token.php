@@ -16,11 +16,11 @@ class Token extends Model
     protected $table = 'oauth_access_tokens';
 
     /**
-     * The "type" of the primary key ID.
+     * The primary key associated with the table.
      *
      * @var string
      */
-    protected $keyType = 'string';
+    protected $primaryKey = '_id';
 
     /**
      * Indicates if the IDs are auto-incrementing.

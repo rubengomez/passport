@@ -67,6 +67,6 @@
         "post-autoload-dump": "@prepare",
         "prepare": "@php vendor/bin/testbench package:discover --ansi"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }

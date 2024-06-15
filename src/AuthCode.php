@@ -13,6 +13,7 @@ class AuthCode extends Model
      */
     protected $table = 'oauth_auth_codes';
 
+    protected $primaryKey = '_id';
     /**
      * Indicates if the IDs are auto-incrementing.
      *

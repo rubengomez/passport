@@ -12,7 +12,7 @@ class PersonalAccessClient extends Model
      * @var string
      */
     protected $table = 'oauth_personal_access_clients';
-
+    protected $primaryKey = '_id';
     /**
      * The guarded attributes on the model.
      *
